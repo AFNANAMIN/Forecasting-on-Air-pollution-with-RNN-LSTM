@@ -13,6 +13,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
 
+
 # load and process data
 def parse(x):
 	return datetime.strptime(x, '%Y %m %d %H')
